@@ -7,4 +7,4 @@ temp_options=(10,20,30,40,50)
 temp=st.select_slider("choose number of months",options=temp_options)
 op = forecast.predict([temp])#predict 
 if st.button('predict'):
-  st.title(op[0])
+  st.title(op[0]) 
